@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+/* Body Styling */
+body {
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+/* Container for Playlist */
+.container1 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Removing Bullet Points */
+.container1 ul {
+    padding: 0;
+}
+
+.container1 ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+/* Links Styling */
+.container1 ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+}
+
+/* Video and Audio Player Containers */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Video and Audio Styling */
+video, audio {
+    width: 100%;
+    max-width: 400px;
+}
